@@ -1,0 +1,30 @@
+06:58:38.328000 == Info:   Trying 31.13.72.36:80...
+06:58:38.328000 == Info: TCP_NODELAY set
+06:58:38.328000 == Info: Connected to www.facebook.com (31.13.72.36) port 80 (#0)
+06:58:38.328000 => Send header, 80 bytes (0x50)
+0000: GET / HTTP/1.1
+0010: Host: www.facebook.com
+0028: User-Agent: curl/7.68.0
+0041: Accept: */*
+004e: 
+06:58:38.562000 == Info: Mark bundle as not supporting multiuse
+06:58:38.562000 <= Recv header, 20 bytes (0x14)
+0000: HTTP/1.1 302 Found
+06:58:38.562000 <= Recv header, 37 bytes (0x25)
+0000: Location: https://www.facebook.com/
+06:58:38.562000 <= Recv header, 42 bytes (0x2a)
+0000: Content-Type: text/html; charset="utf-8"
+06:58:38.562000 <= Recv header, 102 bytes (0x66)
+0000: X-FB-Debug: WxbardFhapUurGtmbt3Msbe5DIa9HcuwxrlOl3Z+ALVp3/7ECSVZ
+0040: /KsNcaeefCJHkCm4KFb4DIvOYu0oz3Aczg==
+06:58:38.562000 <= Recv header, 37 bytes (0x25)
+0000: Date: Sun, 09 Feb 2020 01:58:41 GMT
+06:58:38.562000 <= Recv header, 32 bytes (0x20)
+0000: Alt-Svc: h3-24=":443"; ma=3600
+06:58:38.562000 <= Recv header, 19 bytes (0x13)
+0000: Content-Length: 0
+06:58:38.562000 <= Recv header, 24 bytes (0x18)
+0000: Connection: Keep-Alive
+06:58:38.562000 <= Recv header, 2 bytes (0x2)
+0000: 
+06:58:38.562000 == Info: Connection #0 to host www.facebook.com left intact
