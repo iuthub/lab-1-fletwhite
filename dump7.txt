@@ -1,0 +1,40 @@
+07:11:38.140000 == Info:   Trying 100.25.11.135:80...
+07:11:38.140000 == Info: TCP_NODELAY set
+07:11:38.156000 == Info: Connected to httpbin.org (100.25.11.135) port 80 (#0)
+07:11:38.156000 => Send header, 111 bytes (0x6f)
+0000: GET /get HTTP/1.1
+0013: Host: httpbin.org
+0026: User-Agent: curl/7.68.0
+003f: Accept: */*
+004c: Referer: http://www.google.com/
+006d: 
+07:11:38.671000 == Info: Mark bundle as not supporting multiuse
+07:11:38.671000 <= Recv header, 17 bytes (0x11)
+0000: HTTP/1.1 200 OK
+07:11:38.671000 <= Recv header, 37 bytes (0x25)
+0000: Date: Sun, 09 Feb 2020 02:11:41 GMT
+07:11:38.671000 <= Recv header, 32 bytes (0x20)
+0000: Content-Type: application/json
+07:11:38.671000 <= Recv header, 25 bytes (0x19)
+0000: Server: gunicorn/19.9.0
+07:11:38.671000 <= Recv header, 32 bytes (0x20)
+0000: Access-Control-Allow-Origin: *
+07:11:38.671000 <= Recv header, 40 bytes (0x28)
+0000: Access-Control-Allow-Credentials: true
+07:11:38.671000 <= Recv header, 21 bytes (0x15)
+0000: Content-Length: 409
+07:11:38.671000 <= Recv header, 24 bytes (0x18)
+0000: Connection: Keep-Alive
+07:11:38.671000 <= Recv header, 8 bytes (0x8)
+0000: Age: 0
+07:11:38.671000 <= Recv header, 2 bytes (0x2)
+0000: 
+07:11:38.671000 <= Recv data, 409 bytes (0x199)
+0000: {.  "args": {}, .  "headers": {.    "Accept": "*/*", .    "Cache
+0040: -Control": "max-stale=0", .    "Host": "httpbin.org", .    "If-M
+0080: odified-Since": "Sun, 09 Feb 2020 02:09:43 GMT", .    "Referer":
+00c0:  "http://www.google.com/", .    "User-Agent": "curl/7.68.0", .  
+0100:   "X-Amzn-Trace-Id": "Root=1-5e3f6a5d-d7802244fb5d45e84488b462".
+0140:   }, .  "origin": "89.146.121.198, 89.146.121.198", .  "url": "h
+0180: ttp://httpbin.org/get".}.
+07:11:38.671000 == Info: Connection #0 to host httpbin.org left intact
