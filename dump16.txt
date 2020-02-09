@@ -1,0 +1,259 @@
+07:56:38.390000 == Info:   Trying 104.24.96.167:443...
+07:56:38.390000 == Info: TCP_NODELAY set
+07:56:38.484000 == Info: Connected to www.booleanworld.com (104.24.96.167) port 443 (#0)
+07:56:38.484000 == Info: ALPN, offering h2
+07:56:38.484000 == Info: ALPN, offering http/1.1
+07:56:38.500000 == Info: successfully set certificate verify locations:
+07:56:38.500000 == Info:   CAfile: C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+  CApath: none
+07:56:38.500000 => Send SSL data, 5 bytes (0x5)
+0000: .....
+07:56:38.500000 == Info: TLSv1.3 (OUT), TLS handshake, Client hello (1):
+07:56:38.500000 => Send SSL data, 512 bytes (0x200)
+0000: ......_....~....M;.J.E.].......j.+l.]. .Hh_^.....[..l7.!2.r.l...
+0040: ..M.l...>.......,.0.........+./...$.(.k.#.'.g.....9.....3.....=.
+0080: <.5./.....u.........www.booleanworld.com........................
+00c0: 3t.........h2.http/1.1.........1.....0..........................
+0100: .......................+............-.....3.&.$... H6U3...>.Wl)I
+0140: &4..9....*<.......9.............................................
+0180: ................................................................
+01c0: ................................................................
+07:56:38.593000 <= Recv SSL data, 5 bytes (0x5)
+0000: ....z
+07:56:38.593000 == Info: TLSv1.3 (IN), TLS handshake, Server hello (2):
+07:56:38.593000 <= Recv SSL data, 122 bytes (0x7a)
+0000: ...v....._....J4.uv.`.a.8....\....Wx. .Hh_^.....[..l7.!2.r.l...
+0040: ..M.l........3.$... eA..5."..@=..Fu..P....R....z.aI.+....
+07:56:38.593000 <= Recv SSL data, 5 bytes (0x5)
+0000: .....
+07:56:38.593000 <= Recv SSL data, 5 bytes (0x5)
+0000: ....Q
+07:56:38.593000 <= Recv SSL data, 1 bytes (0x1)
+0000: .
+07:56:38.593000 == Info: TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):
+07:56:38.593000 <= Recv SSL data, 19 bytes (0x13)
+0000: .................h2
+07:56:38.593000 == Info: TLSv1.3 (IN), TLS handshake, Certificate (11):
+07:56:38.593000 <= Recv SSL data, 2218 bytes (0x8aa)
+0000: ...........0...0.............z...R....v...0...*.H.=...0o1.0...U.
+0040: ...US1.0...U....CA1.0...U....San Francisco1.0...U....CloudFlare,
+0080:  Inc.1 0...U....CloudFlare Inc ECC CA-20...200130000000Z..201009
+00c0: 120000Z0m1.0...U....US1.0...U....CA1.0...U....San Francisco1.0..
+0100: .U....Cloudflare, Inc.1.0...U....sni.cloudflaressl.com0Y0...*.H.
+0140: =....*.H.=....B.......%..O[8.....k.m9..1.........EfT.b..9.......
+0180: ..#..x..:Wd.L..{....0...0...U.#..0...>t-..Eu.~?...>LC.Q..0...U.
+01c0: .......n......fM.....Ga..0F..U...?0=..booleanworld.com..*.boolea
+0200: nworld.com..sni.cloudflaressl.com0...U...........0...U.%..0...+.
+0240: ........+.......0y..U...r0p06.4.2.0http://crl3.digicert.com/Clou
+0280: dFlareIncECCCA2.crl06.4.2.0http://crl4.digicert.com/CloudFlareIn
+02c0: cECCCA2.crl0L..U. .E0C07..`.H...l..0*0(..+.........https://www.d
+0300: igicert.com/CPS0...g.....0v..+........j0h0$..+.....0...http://oc
+0340: sp.digicert.com0@..+.....0..4http://cacerts.digicert.com/CloudFl
+0380: areIncECCCA-2.crt0...U.......0.0.....+.....y............v.......
+03c0: X......gp.<5.......w.........o.........G0E. ..a^u@....v..>......
+0400: .@.M.e9r...W.!..61'E).g.a...<A%b.....#2.j.>..O..u.^.s..V...6H}.I
+0440: .2z.........u..qEX...o.........F0D. {wU. ......T+....{R..61G.UO+
+0480: ?..K. ..NJ..,k....g....f..O0.."|n....z0...*.H.=....H.0E. c4...I.
+04c0: DUhr...q..k.....r.T.......!....fi..D...=.>...+....=..jA*.cN*....
+0500: .0...0..............9.=..e...4..0...*.H........0Z1.0...U....IE1.
+0540: 0...U....Baltimore1.0...U....CyberTrust1"0 ..U....Baltimore Cybe
+0580: rTrust Root0...151014120000Z..201009120000Z0o1.0...U....US1.0...
+05c0: U....CA1.0...U....San Francisco1.0...U....CloudFlare, Inc.1 0...
+0600: U....CloudFlare Inc ECC CA-20Y0...*.H.=....*.H.=....B...V....1..
+0640: .R...z.....^..Y...N.d.U.`..K.xT.HP....Xu..`7D.MU....3z#....0...0
+0680: ...U.......0.......0...U...........04..+........(0&0$..+.....0..
+06c0: .http://ocsp.digicert.com0:..U...3010/.-.+.)http://crl3.digicert
+0700: .com/Omniroot2025.crl0=..U. .60402..U. .0*0(..+.........https://
+0740: www.digicert.com/CPS0...U......>t-..Eu.~?...>LC.Q..0...U.#..0...
+0780: ..Y0.GX....T6.{:..M.0...*.H.............8_.....s2......`.2...e..
+07c0: .........K.s.*.....$...R.v...y....P..36.*....2..C.W......%....%1
+0800: ..]H;Q..,...`Q.....3V.Gf.l.......GG.4.....OiN.Y.W........X8R....
+0840: ."4.?...$..o..h-R.k.W,B.-H.....HH.(.4.....`...x...mSi(..k v.U.
+0880: qy.g.....W......g.>&..$..o....p......?'...
+07:56:38.593000 == Info: TLSv1.3 (IN), TLS handshake, CERT verify (15):
+07:56:38.593000 <= Recv SSL data, 79 bytes (0x4f)
+0000: ...K...G0E. ....;I>.[:O........y*s...():.\.D.!...o3o..A..a....A
+0040: ....'1......L=.
+07:56:38.593000 == Info: TLSv1.3 (IN), TLS handshake, Finished (20):
+07:56:38.593000 <= Recv SSL data, 52 bytes (0x34)
+0000: ...0=..+.).[..YY.@}7tl.Y..~..H..{r,F..1.e.A.W...p. 
+07:56:38.593000 => Send SSL data, 5 bytes (0x5)
+0000: .....
+07:56:38.593000 == Info: TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):
+07:56:38.593000 => Send SSL data, 1 bytes (0x1)
+0000: .
+07:56:38.593000 => Send SSL data, 5 bytes (0x5)
+0000: ....E
+07:56:38.593000 => Send SSL data, 1 bytes (0x1)
+0000: .
+07:56:38.593000 == Info: TLSv1.3 (OUT), TLS handshake, Finished (20):
+07:56:38.593000 => Send SSL data, 52 bytes (0x34)
+0000: ...0....-...6J.....>l..1.w...J....U.#C[...e... o....
+07:56:38.593000 == Info: SSL connection using TLSv1.3 / TLS_AES_256_GCM_SHA384
+07:56:38.593000 == Info: ALPN, server accepted to use h2
+07:56:38.593000 == Info: Server certificate:
+07:56:38.593000 == Info:  subject: C=US; ST=CA; L=San Francisco; O=Cloudflare, Inc.; CN=sni.cloudflaressl.com
+07:56:38.593000 == Info:  start date: Jan 30 00:00:00 2020 GMT
+07:56:38.593000 == Info:  expire date: Oct  9 12:00:00 2020 GMT
+07:56:38.593000 == Info:  subjectAltName: host "www.booleanworld.com" matched cert's "*.booleanworld.com"
+07:56:38.593000 == Info:  issuer: C=US; ST=CA; L=San Francisco; O=CloudFlare, Inc.; CN=CloudFlare Inc ECC CA-2
+07:56:38.593000 == Info:  SSL certificate verify ok.
+07:56:38.593000 == Info: Using HTTP2, server supports multi-use
+07:56:38.593000 == Info: Connection state changed (HTTP/2 confirmed)
+07:56:38.593000 == Info: Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0
+07:56:38.593000 => Send SSL data, 5 bytes (0x5)
+0000: ....)
+07:56:38.593000 => Send SSL data, 1 bytes (0x1)
+0000: .
+07:56:38.593000 => Send SSL data, 5 bytes (0x5)
+0000: ....,
+07:56:38.593000 => Send SSL data, 1 bytes (0x1)
+0000: .
+07:56:38.593000 => Send SSL data, 5 bytes (0x5)
+0000: .....
+07:56:38.593000 => Send SSL data, 1 bytes (0x1)
+0000: .
+07:56:38.593000 == Info: Using Stream ID: 1 (easy handle 0xd81c30)
+07:56:38.593000 => Send SSL data, 5 bytes (0x5)
+0000: ....B
+07:56:38.593000 => Send SSL data, 1 bytes (0x1)
+0000: .
+07:56:38.593000 => Send header, 83 bytes (0x53)
+0000: HEAD / HTTP/2
+000f: Host: www.booleanworld.com
+002b: user-agent: curl/7.68.0
+0044: accept: */*
+0051: 
+07:56:38.703000 <= Recv SSL data, 5 bytes (0x5)
+0000: .....
+07:56:38.703000 <= Recv SSL data, 1 bytes (0x1)
+0000: .
+07:56:38.703000 == Info: TLSv1.3 (IN), TLS handshake, Newsession Ticket (4):
+07:56:38.703000 <= Recv SSL data, 230 bytes (0xe6)
+0000: ....... .......y2...K..Vc#H9...K"...?..W........E..T!4..2......
+0040: `:-.Oq.R...r.F.b.-B...g.WW.?........1.s....U%.....q..W..j....N.8
+0080: .......@..6x...o..xP..$.y..?)s..........*...<.d....v...L.k...fkS
+00c0: .j.s.{i......6....9........=\.O...**..
+07:56:38.703000 == Info: TLSv1.3 (IN), TLS handshake, Newsession Ticket (4):
+07:56:38.703000 <= Recv SSL data, 230 bytes (0xe6)
+0000: ....... .]......y2...K..Vc#H9...5...G.^..<...,..*F."_.....8r.*..
+0040: .6.[k....p.(?.......K.|..N...P.m..O.M0.w.5....^r6..$..ox....B.u.
+0080: ...Uy..u(....L.{.?...$}.Q.+..B..I~........P5cu8....==.z[.2.ra.t.
+00c0: G5z`V.L0.......1_..K..............**..
+07:56:38.703000 == Info: old SSL session ID is stale, removing
+07:56:38.703000 <= Recv SSL data, 5 bytes (0x5)
+0000: ....B
+07:56:38.703000 <= Recv SSL data, 1 bytes (0x1)
+0000: .
+07:56:38.703000 == Info: Connection state changed (MAX_CONCURRENT_STREAMS == 256)!
+07:56:38.703000 => Send SSL data, 5 bytes (0x5)
+0000: .....
+07:56:38.703000 => Send SSL data, 1 bytes (0x1)
+0000: .
+07:56:38.953000 <= Recv SSL data, 5 bytes (0x5)
+0000: ....j
+07:56:38.953000 <= Recv SSL data, 1 bytes (0x1)
+0000: .
+07:56:38.953000 <= Recv SSL data, 5 bytes (0x5)
+0000: .....
+07:56:38.953000 <= Recv SSL data, 1 bytes (0x1)
+0000: .
+07:56:38.953000 <= Recv header, 13 bytes (0xd)
+0000: HTTP/2 200 
+07:56:38.953000 <= Recv header, 37 bytes (0x25)
+0000: date: Sun, 09 Feb 2020 02:56:38 GMT
+07:56:38.953000 <= Recv header, 40 bytes (0x28)
+0000: content-type: text/html; charset=UTF-8
+07:56:38.953000 <= Recv header, 169 bytes (0xa9)
+0000: set-cookie: __cfduid=d7490b58d1044445cf8da3dfecb9522e51581216998
+0040: ; expires=Tue, 10-Mar-20 02:56:38 GMT; path=/; domain=.booleanwo
+0080: rld.com; HttpOnly; SameSite=Lax; Secure
+07:56:38.953000 <= Recv header, 8 bytes (0x8)
+0000: age: 0
+07:56:38.953000 <= Recv header, 63 bytes (0x3f)
+0000: cache-control: max-age=0, must-revalidate, no-cache, no-store
+07:56:38.953000 <= Recv header, 23 bytes (0x17)
+0000: display: pub_site_sol
+07:56:38.953000 <= Recv header, 40 bytes (0x28)
+0000: expires: Sat, 08 Feb 2020 02:56:38 GMT
+07:56:38.953000 <= Recv header, 73 bytes (0x49)
+0000: link: <https://www.booleanworld.com/wp-json/>; rel="https://api.
+0040: w.org/"
+07:56:38.953000 <= Recv header, 16 bytes (0x10)
+0000: pagespeed: off
+07:56:38.953000 <= Recv header, 15 bytes (0xf)
+0000: response: 200
+07:56:38.953000 <= Recv header, 103 bytes (0x67)
+0000: set-cookie: ezoadgid_95829=-1; Path=/; Domain=booleanworld.com; 
+0040: Expires=Sun, 09 Feb 2020 03:26:38 UTC
+07:56:38.953000 <= Recv header, 99 bytes (0x63)
+0000: set-cookie: ezoref_95829=; Path=/; Domain=booleanworld.com; Expi
+0040: res=Sun, 09 Feb 2020 04:56:38 UTC
+07:56:38.953000 <= Recv header, 105 bytes (0x69)
+0000: set-cookie: ezoab_95829=mod88-c; Path=/; Domain=booleanworld.com
+0040: ; Expires=Sun, 09 Feb 2020 04:56:38 UTC
+07:56:38.953000 <= Recv header, 128 bytes (0x80)
+0000: set-cookie: active_template::95829=pub_site.1581216998; Path=/; 
+0040: Domain=booleanworld.com; Expires=Tue, 11 Feb 2020 02:56:38 UTC
+07:56:38.953000 <= Recv header, 100 bytes (0x64)
+0000: set-cookie: ezopvc_95829=1; Path=/; Domain=booleanworld.com; Exp
+0040: ires=Sun, 09 Feb 2020 03:26:38 UTC
+07:56:38.953000 <= Recv header, 97 bytes (0x61)
+0000: set-cookie: ezepvv=1957; Path=/; Domain=booleanworld.com; Expire
+0040: s=Mon, 10 Feb 2020 02:56:38 UTC
+07:56:38.953000 <= Recv header, 124 bytes (0x7c)
+0000: set-cookie: lp_95829=https://www.booleanworld.com/; Path=/; Doma
+0040: in=booleanworld.com; Expires=Sun, 09 Feb 2020 04:56:38 UTC
+07:56:38.953000 <= Recv header, 109 bytes (0x6d)
+0000: set-cookie: ezovid_95829=1652803315; Path=/; Domain=booleanworld
+0040: .com; Expires=Sun, 09 Feb 2020 03:26:38 UTC
+07:56:38.953000 <= Recv header, 115 bytes (0x73)
+0000: set-cookie: ezovuuidtime_95829=1581216998; Path=/; Domain=boolea
+0040: nworld.com; Expires=Tue, 11 Feb 2020 02:56:38 UTC
+07:56:38.953000 <= Recv header, 137 bytes (0x89)
+0000: set-cookie: ezovuuid_95829=8110d7ce-2af9-4e93-633d-4ab75c174647;
+0040:  Path=/; Domain=booleanworld.com; Expires=Sun, 09 Feb 2020 03:26
+0080: :38 UTC
+07:56:38.953000 <= Recv header, 99 bytes (0x63)
+0000: set-cookie: ezCMPCCS=true; Path=/; Domain=booleanworld.com; Expi
+0040: res=Tue, 09 Feb 2021 02:56:38 GMT
+07:56:38.953000 <= Recv header, 45 bytes (0x2d)
+0000: vary: Accept-Encoding,User-Agent,X-APP-JSON
+07:56:38.953000 <= Recv header, 32 bytes (0x20)
+0000: via: 1.1 varnish (Varnish/6.0)
+07:56:38.953000 <= Recv header, 104 bytes (0x68)
+0000: x-ezoic-cdn: Hit ds;mm;5095a596f1199f08ba97dd339749c4bf;2-95829-
+0040: 6;ff620664-009b-4d17-530c-b695ff62458b
+07:56:38.953000 <= Recv header, 29 bytes (0x1d)
+0000: x-frame-options: sameorigin
+07:56:38.953000 <= Recv header, 35 bytes (0x23)
+0000: x-middleton-display: pub_site_sol
+07:56:38.953000 <= Recv header, 27 bytes (0x1b)
+0000: x-middleton-response: 200
+07:56:38.953000 <= Recv header, 19 bytes (0x13)
+0000: x-shard: 10022573
+07:56:38.953000 <= Recv header, 17 bytes (0x11)
+0000: x-sol: pub_site
+07:56:38.953000 <= Recv header, 22 bytes (0x16)
+0000: x-varnish: 430623394
+07:56:38.953000 <= Recv header, 16 bytes (0x10)
+0000: x-vcache: Miss
+07:56:38.953000 <= Recv header, 33 bytes (0x21)
+0000: x-xss-protection: 1; mode=block
+07:56:38.953000 <= Recv header, 26 bytes (0x1a)
+0000: cf-cache-status: DYNAMIC
+07:56:38.953000 <= Recv header, 100 bytes (0x64)
+0000: expect-ct: max-age=604800, report-uri="https://report-uri.cloudf
+0040: lare.com/cdn-cgi/beacon/expect-ct"
+07:56:38.953000 <= Recv header, 73 bytes (0x49)
+0000: strict-transport-security: max-age=15552000; includeSubDomains; 
+0040: preload
+07:56:38.953000 <= Recv header, 33 bytes (0x21)
+0000: x-content-type-options: nosniff
+07:56:38.953000 <= Recv header, 20 bytes (0x14)
+0000: server: cloudflare
+07:56:38.953000 <= Recv header, 30 bytes (0x1e)
+0000: cf-ray: 56229241288e2b80-AMS
+07:56:38.953000 <= Recv header, 2 bytes (0x2)
+0000: 
+07:56:38.953000 == Info: Connection #0 to host www.booleanworld.com left intact
