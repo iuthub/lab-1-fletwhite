@@ -1,0 +1,33 @@
+07:06:13.687000 == Info:   Trying 78.47.144.120:80...
+07:06:13.687000 == Info: TCP_NODELAY set
+07:06:13.687000 == Info: Connected to gazeta.uz (78.47.144.120) port 80 (#0)
+07:06:13.687000 => Send header, 77 bytes (0x4d)
+0000: GET / HTTP/1.1
+0010: Host: www.afisha.uz
+0025: Accept: */*
+0032: User-Agent: Mozilla/5.0
+004b: 
+07:06:13.890000 == Info: Mark bundle as not supporting multiuse
+07:06:13.890000 <= Recv header, 24 bytes (0x18)
+0000: HTTP/1.1 403 Forbidden
+07:06:13.890000 <= Recv header, 22 bytes (0x16)
+0000: Server: nginx/1.14.2
+07:06:13.890000 <= Recv header, 37 bytes (0x25)
+0000: Date: Sun, 09 Feb 2020 02:06:16 GMT
+07:06:13.890000 <= Recv header, 25 bytes (0x19)
+0000: Content-Type: text/html
+07:06:13.890000 <= Recv header, 21 bytes (0x15)
+0000: Content-Length: 169
+07:06:13.890000 <= Recv header, 24 bytes (0x18)
+0000: Connection: Keep-Alive
+07:06:13.890000 <= Recv header, 2 bytes (0x2)
+0000: 
+07:06:13.890000 <= Recv data, 169 bytes (0xa9)
+0000: <html>
+0008: <head><title>403 Forbidden</title></head>
+0033: <body bgcolor="white">
+004b: <center><h1>403 Forbidden</h1></center>
+0074: <hr><center>nginx/1.14.2</center>
+0097: </body>
+00a0: </html>
+07:06:13.890000 == Info: Connection #0 to host gazeta.uz left intact
