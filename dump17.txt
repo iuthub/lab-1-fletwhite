@@ -1,0 +1,51 @@
+08:06:03.593000 == Info:   Trying 93.184.216.34:80...
+08:06:03.593000 == Info: TCP_NODELAY set
+08:06:03.609000 == Info: Connected to example.com (93.184.216.34) port 80 (#0)
+08:06:03.609000 => Send header, 545 bytes (0x221)
+0000: GET / HTTP/1.1
+0010: Host: example.com
+0023: Accept-Encoding: deflate, gzip
+0043: Connection: keep-alive
+005b: Cache-Control: max-age=0
+0075: Upgrade-Insecure-Requests: 1
+0093: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKi
+00d3: t/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36
+0113: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,im
+0153: age/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q
+0193: =0.9
+0199: Accept-Language: en-US,en;q=0.9,ru-RU;q=0.8,ru; q=0.7
+01d0: If-None-Match: "3147526947"
+01ed: If-Modified-Since: Thu, 17 Oct 2019 07:18:26 GMT
+021f: 
+08:06:04.015000 == Info: Mark bundle as not supporting multiuse
+08:06:04.015000 <= Recv header, 27 bytes (0x1b)
+0000: HTTP/1.1 304 Not Modified
+08:06:04.015000 <= Recv header, 22 bytes (0x16)
+0000: Accept-Ranges: bytes
+08:06:04.015000 <= Recv header, 31 bytes (0x1f)
+0000: Cache-Control: max-age=604800
+08:06:04.015000 <= Recv header, 40 bytes (0x28)
+0000: Content-Type: text/html; charset=UTF-8
+08:06:04.015000 <= Recv header, 37 bytes (0x25)
+0000: Date: Sun, 09 Feb 2020 03:06:03 GMT
+08:06:04.015000 <= Recv header, 20 bytes (0x14)
+0000: Etag: "3147526947"
+08:06:04.015000 <= Recv header, 40 bytes (0x28)
+0000: Expires: Sun, 16 Feb 2020 03:06:03 GMT
+08:06:04.015000 <= Recv header, 46 bytes (0x2e)
+0000: Last-Modified: Thu, 17 Oct 2019 07:18:26 GMT
+08:06:04.015000 <= Recv header, 24 bytes (0x18)
+0000: Server: ECS (dcb/7EA3)
+08:06:04.015000 <= Recv header, 23 bytes (0x17)
+0000: Vary: Accept-Encoding
+08:06:04.015000 <= Recv header, 14 bytes (0xe)
+0000: X-Cache: HIT
+08:06:04.015000 <= Recv header, 24 bytes (0x18)
+0000: Connection: Keep-Alive
+08:06:04.015000 <= Recv header, 24 bytes (0x18)
+0000: Content-Encoding: gzip
+08:06:04.015000 <= Recv header, 13 bytes (0xd)
+0000: Age: 188057
+08:06:04.015000 <= Recv header, 2 bytes (0x2)
+0000: 
+08:06:04.015000 == Info: Connection #0 to host example.com left intact
