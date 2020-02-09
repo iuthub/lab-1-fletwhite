@@ -1,0 +1,38 @@
+07:09:40.859000 == Info:   Trying 100.25.11.135:80...
+07:09:40.859000 == Info: TCP_NODELAY set
+07:09:40.859000 == Info: Connected to httpbin.org (100.25.11.135) port 80 (#0)
+07:09:40.859000 => Send header, 78 bytes (0x4e)
+0000: GET /get HTTP/1.1
+0013: Host: httpbin.org
+0026: User-Agent: Mozilla/5.0
+003f: Accept: */*
+004c: 
+07:09:41.640000 == Info: Mark bundle as not supporting multiuse
+07:09:41.640000 <= Recv header, 17 bytes (0x11)
+0000: HTTP/1.1 200 OK
+07:09:41.640000 <= Recv header, 37 bytes (0x25)
+0000: Date: Sun, 09 Feb 2020 02:09:43 GMT
+07:09:41.640000 <= Recv header, 32 bytes (0x20)
+0000: Content-Type: application/json
+07:09:41.640000 <= Recv header, 25 bytes (0x19)
+0000: Server: gunicorn/19.9.0
+07:09:41.640000 <= Recv header, 32 bytes (0x20)
+0000: Access-Control-Allow-Origin: *
+07:09:41.640000 <= Recv header, 40 bytes (0x28)
+0000: Access-Control-Allow-Credentials: true
+07:09:41.640000 <= Recv header, 21 bytes (0x15)
+0000: Content-Length: 367
+07:09:41.640000 <= Recv header, 24 bytes (0x18)
+0000: Connection: Keep-Alive
+07:09:41.640000 <= Recv header, 8 bytes (0x8)
+0000: Age: 0
+07:09:41.640000 <= Recv header, 2 bytes (0x2)
+0000: 
+07:09:41.640000 <= Recv data, 367 bytes (0x16f)
+0000: {.  "args": {}, .  "headers": {.    "Accept": "*/*", .    "Cache
+0040: -Control": "max-stale=0", .    "Host": "httpbin.org", .    "If-M
+0080: odified-Since": "Wed, 05 Feb 2020 15:16:58 GMT", .    "User-Agen
+00c0: t": "Mozilla/5.0", .    "X-Amzn-Trace-Id": "Root=1-5e3f69e7-7c77
+0100: b10c95a7f5b1130983c7".  }, .  "origin": "89.146.121.198, 89.146.
+0140: 121.198", .  "url": "http://httpbin.org/get".}.
+07:09:41.640000 == Info: Connection #0 to host httpbin.org left intact
